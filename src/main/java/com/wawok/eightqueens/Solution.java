@@ -46,7 +46,7 @@ public class Solution {
     }
 
     //internal copy constructor
-    public Solution(byte[] ranks) {
+    private Solution(byte[] ranks) {
         this.ranks = ranks;
     }
 
